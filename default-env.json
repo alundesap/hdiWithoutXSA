@@ -1,9 +1,9 @@
 {
-    "TARGET_CONTAINER": "hdi_db_without_xsa",		
+    "TARGET_CONTAINER": "xyz",		
     "VCAP_SERVICES": {
 		"hana": [
 			{
-				"name": "hdi_db_without_xsa",
+				"name": "xyz",
 				"label": "hana",
 				"tags": [
 					"hana",
@@ -12,23 +12,23 @@
 				],
 				"plan": "hdi-shared",
 				"credentials": {
-					"schema": "HDI_WITHOUT_XSA",
-					"hdi_password": "<password>",
+					"schema": "XYZ",
+					"hdi_password": "Plak8484",
 					"tenant_name": "HXE",
-					"password": "<password>",
+					"password": "Plak8484",
 					"driver": "com.sap.db.jdbc.Driver",
 					"port": "30015",
 					"encrypt": false,
 					"db_hosts": [
 						{
 							"port": 30015,
-							"host": "hanapm.local.com"
+							"host": "hxesp4.local.com"
 						}
 					],
-					"host": "hanapm.local.com",
-					"hdi_user": "SYSTEM",
-					"user": "SYSTEM",
-					"url": "jdbc:sap://hanapm.local.com:30015/?currentschema=HDI_WITHOUT_XSA"
+					"host": "hxesp4.local.com",
+					"hdi_user": "XYZ_7F0100C0A39E7E0317001200D1C463A8_DT",
+					"user": "XYZ_7F0100C0A39E7E0317001200D1C463A8_RT",
+					"url": "jdbc:sap://hxesp4.local.com:30015/?currentschema=XYZ"
 				}
 			}
 		]
