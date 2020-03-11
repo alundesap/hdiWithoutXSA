@@ -22,13 +22,13 @@
 					"db_hosts": [
 						{
 							"port": 30015,
-							"host": "hxesp4.local.com"
+							"host": "hxe.local.com"
 						}
 					],
-					"host": "hxesp4.local.com",
+					"host": "hxe.local.com",
 					"hdi_user": "XYZ_7F0100C0A39E7E0317001200D1C463A8_DT",
 					"user": "XYZ_7F0100C0A39E7E0317001200D1C463A8_RT",
-					"url": "jdbc:sap://hxesp4.local.com:30015/?currentschema=XYZ"
+					"url": "jdbc:sap://hxe.local.com:30015/?currentschema=XYZ"
 				}
 			}
 		]
