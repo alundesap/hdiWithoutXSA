@@ -2,7 +2,7 @@
   "definitions": {
     "CatalogService": {
       "kind": "service",
-      "@source": "srv\\cat-service.cds"
+      "@source": "srv/cat-service.cds"
     },
     "CatalogService.BusinessPartners": {
       "kind": "entity",
@@ -609,6 +609,12 @@
       "type": "cds.String",
       "length": 1,
       "@cds.persistence.name": "OPENSAP_PURCHASEORDER_STATUST"
+    },
+    "opensap.PurchaseOrder.StatusX": {
+      "kind": "type",
+      "type": "cds.String",
+      "length": 1,
+      "@cds.persistence.name": "OPENSAP_PURCHASEORDER_STATUSX"
     },
     "opensap.PurchaseOrder.BusinessPartner": {
       "kind": "entity",

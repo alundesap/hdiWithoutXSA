@@ -10,6 +10,7 @@ using { Currency, managed }        //> reusing common types
     type QuantityT : Decimal(13, 3) @(title: '{i18n>quantity}', Measures.Unit: Units.Quantity );
     type UnitT : String(3) @title: '{i18n>quantityUnit}';
     type StatusT : String(1);
+    type StatusX : String(1);
 
 @readonly entity BusinessPartner {
         key BusinessPartner : String(10);

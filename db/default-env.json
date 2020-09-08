@@ -1,9 +1,9 @@
 {
-    "TARGET_CONTAINER": "xyz",		
+    "TARGET_CONTAINER": "mycc3",		
     "VCAP_SERVICES": {
 		"hana": [
 			{
-				"name": "xyz",
+				"name": "mycc3",
 				"label": "hana",
 				"tags": [
 					"hana",
@@ -12,7 +12,7 @@
 				],
 				"plan": "hdi-shared",
 				"credentials": {
-					"schema": "XYZ",
+					"schema": "MYCC3",
 					"hdi_password": "Plak8484",
 					"tenant_name": "HXE",
 					"password": "Plak8484",
@@ -22,13 +22,13 @@
 					"db_hosts": [
 						{
 							"port": 30015,
-							"host": "hxesp4.local.com"
+							"host": "192.168.132.134"
 						}
 					],
-					"host": "hxesp4.local.com",
-					"hdi_user": "XYZ_490000C09A4BB10317003E00893A4DAF_DT",
-					"user": "XYZ_490000C09A4BB10317003E00893A4DAF_RT",
-					"url": "jdbc:sap://hxesp4.local.com:30015/?currentschema=XYZ"
+					"host": "192.168.132.134",
+					"hdi_user": "MYCC3_511F00E0989D83081700D600AE1E42D7_DT",
+					"user": "MYCC3_511F00E0989D83081700D600AE1E42D7_RT",
+					"url": "jdbc:sap://192.168.132.134:30015/?currentschema=MYCC3"
 				}
 			}
 		]
